@@ -71,6 +71,10 @@ if Value then
 		end
 end)
 
-about:Button("名字",function()
+about:Button("自杀",function()
 game.Players.LocalPlayer.Character.Humanoid.Health=0
+end)
+
+about:Button("爬墙",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
