@@ -70,3 +70,7 @@ if Value then
 
 		end
 end)
+
+about:Button("名字",function()
+game.Players.LocalPlayer.Character.Humanoid.Health=0
+end)
